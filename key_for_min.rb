@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   min = Float::INFINITY
+  boy = ''
   if !min  
     return nil  
   end 
