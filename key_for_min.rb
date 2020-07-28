@@ -4,9 +4,6 @@
 def key_for_min_value(name_hash)
   min = Float::INFINITY
   boy = nil
-  if !min  
-    return nil  
-  end 
   name_hash.each do |key, value|
     if value < min 
       min = value
